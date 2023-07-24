@@ -1,0 +1,713 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(19, 136, 72) ;
+}
+/***header****/
+.header-index {
+  display: flex;
+  padding: 15px 100px 25px 90px;
+  background-color: rgb(55, 174, 109);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  font-weight: bold;
+}
+#bar{
+  display: none;
+}
+.headername{
+    color: rgb(136, 19, 29);
+}
+.header-nav a{
+    margin-right: 30px;
+    color:rgb(136, 19, 29);
+}
+.header-nav a:hover{
+    background-color:rgb(136, 19, 29);
+    color: rgb(19, 136, 72);
+    padding: 7px 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.header-nav{
+    padding-left: 384px;
+    padding-top: 13px;
+}
+a{
+    text-decoration: none;
+}
+/****main section*******/
+.section-home1{
+
+    text-align: center;
+    padding-top: 100px;
+}
+.section-home1 .section1  img{
+    width: 250px;
+    border-radius: 5px;
+}
+
+.section-home1 p{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.section-home1 button{
+    margin-top: 4px;
+    padding: 7px;
+    border: none;
+    background-color: rgb(136, 19, 29);
+    text-decoration: none;
+    border-radius: 5px;
+}
+.section-home1 button:hover{
+    padding:10px ;
+    transition: 0.3s;
+}
+.section-home1 button a{
+    color:rgb(19, 136, 72) ;
+}
+.section1{
+    color: rgb(19, 136, 72) ;
+    margin: 30px 150px 15px 150px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    background-color: rgb(136, 19, 29);
+}
+.section2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.section2{
+    color: rgb(19, 136, 72) ;
+    margin: 30px 150px 15px 150px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    background-color: rgb(136, 19, 29);
+}
+/***form****/
+.all{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-bottom: 20px;
+    margin: 20px 200px 20px 180px ;
+    border-radius: 10px;
+}
+
+.message input{
+    display: block;
+    margin: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: wheat;
+    margin-left: -45px;
+    margin-bottom: 10px;
+}
+.diffmsg{
+    padding-bottom: 300px;
+}
+.message button{
+    padding: 7px;
+    margin-left: -45px;
+    border: none;
+    border-radius: 5px;
+    color: wheat ;
+    background-color:rgb(132, 24, 33) ;
+    margin-bottom: 10px;
+}
+.message h3{
+    margin-top: 1px;
+}
+.newsletter input{
+    display: block;
+    margin: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: wheat;
+    margin-left: 0px;
+}
+.newsletter button{
+    padding: 7px;
+    margin-left: 0px;
+    border: none;
+    border-radius: 5px;
+    color: wheat ;
+    background-color:rgb(132, 24, 33) ;
+    margin-bottom: 10px;
+}
+/***about********/
+.introduction{
+    padding-top: 100px;
+    text-align: center;
+}
+.aboutmsg{
+    display: flex;
+    margin: 30px ;
+    color: rgb(132, 24, 33) ;
+    font-weight: bold;
+}
+.aboutmsg img{
+    border-radius: 10px;
+}
+.msgabout{
+    text-align: left;
+    padding-left: 40px;
+    list-style-type: disc;
+}
+.meetsection{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.meetsection .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+  }
+  
+  .meetsection .col-left {
+    width: 250px;
+  }
+  
+  .meetsection .col-left .about-img img {
+    width: 100%;
+    height: auto;
+    border: 10px solid white;
+  }
+  
+  .meetsection .col-left .about-img::after {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: calc(100% - 38px);
+    width: calc(100% - 38px);
+    z-index: -1;
+  }
+  
+  .meetsection .col-right {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  .meetsection .col-right h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+  }
+  
+  .meetsection .col-right p {
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 40px;
+  }
+  
+  .meetsection .col-right .cta {
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 2rem;
+  }
+
+
+/*********contact***********/
+.contact-details{
+    color:rgb(136, 19, 29) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 100px;
+  }
+  .contact-details .details{
+    width: 40%;
+  }
+  .contact-details .details span{
+    font-size: 12px;
+  }
+  .contact-details .details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+  }
+  .contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  .contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+  }
+  .contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+  }
+  .contact-details .details li p{
+    margin: 0;
+    font-size: 20px;
+  }
+.contact-details .map{
+    width: 55%;
+    height: 400px;
+  }
+  .contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+  }
+  #name_contact, .email-contact, #msg{
+    margin-top: 30px;
+    height: 40px;
+    width: 900px;
+    background: rgb(220, 219, 219);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+  }
+main .formsec{
+    text-align: center;
+    padding-left: 100px;
+    
+}
+  #msg{
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+  }
+  #btn_contact{
+    margin-bottom: 50px;
+    padding: 15px 50px;
+    background-color:rgb(132, 24, 33);
+    border:none;
+    border-radius: 5px;
+    color: aliceblue;
+  }
+  #btn_contact:hover{
+    padding: 20px 60px;
+    background-color: rgb(132, 24, 33);
+    transition: 0.3s;
+  }
+  /****register*******/
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: rgb(132, 24, 33);
+    margin-bottom:20px ;
+  }
+
+  .profile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="password"],
+  .form-group select  {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="password"],
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .form-group select {
+    height: 34px;
+  }
+  .form-group {
+    position: s;
+  }
+  
+  .form-group .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .form-group .icon.hide {
+    display: none;
+  }
+  
+  .btn-container {
+    text-align: center;
+  }
+
+  .btn-container button {
+    padding: 10px 20px;
+    background-color: rgb(132, 24, 33);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+/*****footer*****/
+footer {
+  
+    background-color: rgb(132, 24, 33);
+    padding: 20px;
+    color:rgb(70, 151, 107) ;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color:rgb(70, 151, 107) ;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #888;
+  }#makecolor:hover{
+    color: azure;
+  }
+  
+  /*********verify********/
+  
+  .verify-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #verificationForm h1 {
+    text-align: center;
+  }
+
+#verificationForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+#verificationForm input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    
+  }
+
+#verificationForm  button {
+    padding: 10px 20px;
+    background-color:rgb(132, 24, 33);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  /*****login********/
+  .login-container {
+    max-width: 400px;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-bottom: 95px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-top:20px;
+    border-radius: 5px;
+    color:rgb(132, 24, 33) ;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .loginform {
+    margin-bottom: 20px;
+  }
+  
+  .loginform label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .loginform input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: wheat;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .password-field .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .loginbtn{
+    padding: 7px 13px;
+    margin-left: 190px;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(138, 35, 44);
+    color:  rgb(19, 136, 72) ;
+  }
+  
+  .loginform .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .loginform .icon.hide {
+    display: none;
+  }
+  .form-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .form-options a {
+    color: #751a1a;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .form-options span {
+    color: #bc2b2b;
+    margin: 0 5px;
+  }
+  @media (max-width: 750px) {
+    
+    .header-index {
+      display: flex;
+      padding: 15px 100px 25px 90px;
+      background-color: rgb(55, 174, 109);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+    .header-nav a {
+      display: none;
+    }
+    #bar {
+      display: none;
+    }
+    .section-home1 h1 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .section1,
+    .section2 {
+      display: inline-block;
+      line-height: 30px;
+      width: 250px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: 73px;
+      margin-right: 73px ;
+    }
+    .section1 img,
+    .section2 img {
+      width: 100%;
+      height: 250px;
+    }
+    .section1 p,
+    .section2 p {
+      margin-top: 10px;
+      font-size: 16px;
+      line-height: 20px;
+      margin-right: 40px;
+    }
+    .section-form .all {
+      display: block;
+    }
+    .section-form .message {
+      margin-bottom: 20px;
+      margin-left: -70px;
+    }
+  
+    .section-form .message h3 {
+      display: inline-block;
+      margin: 0 0 0 -45px;
+      padding: 0;
+    }
+  
+    .section-form .newsletter {
+      margin-bottom: 20px;
+      margin-left: -115px;
+    }
+    .section-form .newsletter h3 {
+      display: inline;
+    }
+    /*****about********/
+    .aboutmsg{
+      display: block;
+    }
+  .introduction h1,
+  .meetsection h1 {
+    font-size: 24px; 
+    line-height: 30px;
+  }
+  .introduction img{
+    width: 100%;
+    height: 250px;
+  }
+  .about.container {
+    flex-direction: column; 
+  }
+  .col-left,
+  .col-right {
+    width: 100%;
+  }
+  .about.container .about-img {
+    margin: 0 auto 20px;
+  }
+  .about.container .section-title {
+    margin-bottom: 10px;
+  }
+  .meetsection{
+    display: contents;
+  }
+  /*****about************/
+
+  .contact-details {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  .details{
+    display: contents;
+  }
+  .map{
+   display: none;
+  }
+  main .formsec {
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  #msg {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+  .formprob{
+    width: 2cm;
+  }
+  #btn_contact {
+    margin-bottom: 20px;
+    padding: 10px 30px;
+  }
+  .formsec input{
+    width: 350px;
+  }
+  .form-group .icon {
+    margin-top: 222px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+}

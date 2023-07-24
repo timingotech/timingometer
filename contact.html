@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a3677f4b6f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Meter Web App</title>
+</head>
+<body>
+    <header class="header-index">
+        <h1><span class="headername">T</span>imingo <span class="headername">M</span>eter</h1>
+        <nav class="header-nav">
+            <a href="dash.html" id="dash">Dashboard</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <section  class="contact-details">
+        <div class="details">
+            <h1>GET IN TOUCH</h1>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fal fa-map"></i>
+                    <p>Lagos,Nigeria</p>
+                </li>
+                <li>
+                    <i class="fal fa-envelope"></i>
+                    <p>timingotech.gmail.com</p>
+                </li>
+                <li>
+                    <i class="fal fa-phone-alt"></i>
+                    <p>+2349022013174</p>
+                </li><li>
+                    <i class="fal fa-clock"></i>
+                    <p>Monday - Saturday: 7am - 7pm</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.282774829294!2d3.3668669731580794!3d6.611744693382295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93adcc8a97e5%3A0x3a02a92f6a20c80f!2sC%20M%20D%20Rd%2C%20105102%2C%20Ikeja%2C%20Lagos!5e0!3m2!1sen!2sng!4v1686658744267!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <main class="formprob">
+      <form class="formsec" action="" onsubmit="sendemail(); reset(); return false" >
+        <h1>Leave A Message Now</h1>
+        <input type="name" name="name" id="name_contact" placeholder="Your Full name"><br>
+        <input type="email" name="email_user" id="email" placeholder="Your Email" class="email-contact"><br>
+        <input type="text" name="msg" id="msg" placeholder="Your Message"> <br>
+        <button id="btn_contact">Submit</button>
+      </form>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+              <h3>About Us</h3>
+              <p>Embrace the Preferred Choice of Energy Innovators Worldwide! Join Our Community and Transform the Way You Manage Energy.</p>
+            </div>
+            <div class="footer-column">
+              <h3>Contact</h3>
+              <p>Email: timingotech@gmail.com<br>Phone: +2349022013174</p>
+            </div>
+            <div class="footer-column">
+              <h3>Links</h3>
+              <ul>
+                <li><a href="index.html" id="makecolor">Home</a></li>
+                <li><a href="login.html" id="makecolor">Services</a></li>
+                <li><a href="about.html" id="makecolor">About Us</a></li>
+                <li><a href="contact.html" id="makecolor">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; Timingo. All rights reserved.</p>
+          </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

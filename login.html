@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.cs s">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a3677f4b6f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <title>Meter Web App</title>
+</head>
+<body>
+    <header class="header-index">
+        <h1><span class="headername">T</span>imingo <span class="headername">M</span>eter</h1>
+        <nav class="header-nav">
+            <a href="dash.html" id="dash">Dashboard</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header> <br><br><br><br><br>
+<div class="login-container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <div class="loginform">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="loginform">
+        <label for="password">Password</label>
+        <div class="password-field">
+          <input type="password" id="password" name="password" required>
+          <span class="icon" id="showPasswordIcon"><i class="fa-regular fa-eye"></i></span>
+            <span class="icon hide" id="hidePasswordIcon"><i class="fa-regular fa-eye-slash"></i>
+            </span>
+        </div>
+      </div>
+      <button type="submit" class="loginbtn">Login</button>
+    </form>
+    <div class="form-options">
+      <a href="forgotpassword.html">Forgot Password?</a>
+      <span>|</span>
+      <a href="register.html">Don't have an account? Sign up</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <p>Connect, Explore, and Trek as One! Join a global community of like-minded trekkers and embark on unforgettable journeys together.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p>Email: timingotech@gmail.com<br>Phone: +2349022013174</p>
+        </div>
+        <div class="footer-column">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="index.html" id="makecolor">Home</a></li>
+                <li><a href="login.html" id="makecolor">Services</a></li>
+                <li><a href="about.html" id="makecolor">About Us</a></li>
+                <li><a href="contact.html" id="makecolor">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; Timingo. All rights reserved.</p>
+      </div>
+</footer>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script src="script.js"></script>
+</body>
+</html>
